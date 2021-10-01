@@ -48,7 +48,7 @@ body {
 
 .placeholder {
   width: 150px;
-  height: 66px;
+  height: 50vh;
 }
 
 .start {
@@ -61,4 +61,19 @@ body {
 
 .done {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold {
+border-radius: 0;
+border: 1px solid #209cff;
+font-size: 10px;
+background: transparent;
+font-style: italic;
+}
+
+.hide {
+  display: none;
+}
+.hovered {
+  border-top: 1px solid #229efd;
 }
